@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="503" height="146" viewBox="0 0 503 146">
+  <defs>
+    <filter id="a_book_a_cup_of_coffee" x="0" y="0" width="300" height="87" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.412"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Savor_every_chapter_with_a_steaming_cup_of_freshly_brewed_coffee_aromatic_teas_and_delectable_treats._Our_baristas_take_pride_in_crafting_the_perfect_beverage_to_complement_your_reading_journey." x="0" y="34" width="503" height="112" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-opacity="0.412"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_929" data-name="그룹 929" transform="translate(-727 -4055)">
+    <g transform="matrix(1, 0, 0, 1, 727, 4055)" filter="url(#a_book_a_cup_of_coffee)">
+      <text id="a_book_a_cup_of_coffee-2" data-name="a book, a cup of coffee" transform="translate(30 50)" fill="#fff" font-size="27" font-family="MinionPro-Regular, Minion Pro"><tspan x="0" y="0">a book, a cup of coffee</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 727, 4055)" filter="url(#Savor_every_chapter_with_a_steaming_cup_of_freshly_brewed_coffee_aromatic_teas_and_delectable_treats._Our_baristas_take_pride_in_crafting_the_perfect_beverage_to_complement_your_reading_journey.)">
+      <text id="Savor_every_chapter_with_a_steaming_cup_of_freshly_brewed_coffee_aromatic_teas_and_delectable_treats._Our_baristas_take_pride_in_crafting_the_perfect_beverage_to_complement_your_reading_journey.-2" data-name="Savor every chapter with a steaming cup of freshly brewed coffee, 
+aromatic teas, and delectable treats.
+Our baristas take pride in crafting the perfect beverage to complement your reading journey." transform="translate(30 73)" fill="#fff" font-size="12" font-family="MinionPro-Regular, Minion Pro"><tspan x="0" y="0">Savor every chapter with a steaming cup of freshly brewed coffee, </tspan><tspan x="0" y="20">aromatic teas, and delectable treats.</tspan><tspan x="0" y="40">Our baristas take pride in crafting the perfect beverage to complement your reading journey.</tspan></text>
+    </g>
+  </g>
+</svg>

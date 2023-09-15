@@ -1,0 +1,832 @@
+@charset "utf-8";
+/* webfont */
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+html{
+    font-size: 15px;
+}
+body{
+    font-family: 'Grandiflora One', serif; font-family: 'Noto Sans KR', sans-serif;
+    line-height: 22px;
+    color: #333;
+}
+#wrap{
+    min-width: 1320px;
+}
+#header{
+    background-color: #E5DCD7;
+    height: 100px;
+  
+   
+}
+.header_inner{ position: relative;
+    text-align: center;
+}
+.gnb_wrap{ 
+   
+    width: 1320px;
+    margin:  0 auto;    
+    height: 60px;
+}
+.gnb{
+    display: inline-block;
+}
+.gnb> li{
+    float: left;
+}
+.gnb> li> a{
+    display: block;
+    padding: 4px 10px 34px;
+    font-size: 16px;
+    font-family: 'Grandiflora One', serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Stardos Stencil', cursive;
+    font-weight: bold;
+    color: #4A3D44;
+    margin: 40px 50px 0 ;
+}
+.gnb >li > a:hover{
+   color: #3172a0;
+ }
+.gnb > li:hover >.submenu{
+    display:block;
+}
+.gnb li:nth-child(2){
+   margin-right: 250px;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -95px;
+}
+
+
+.submenu{
+    height: 230px;    
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    background-color:rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: left;
+    /* display: none; */
+
+}
+.submenu_inner{
+    width: 1320px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.submenu_text{
+   overflow: hidden;
+   padding-left: 200px;
+}
+.submenu_left{
+    float: left;
+}
+.submenu_right{
+    float: left;
+    padding-left: 110px;
+}
+.padding{
+    padding-left: 350px;
+}
+
+.submenu_link > li{
+    margin-top: 10px;
+}
+.submenu_link > li >a{
+    color: #ddd;
+    font-size: 13px;
+    padding: 5px 5px 5px 0;
+
+}
+.submenu_link > li >a:hover{
+    color: #fff;
+
+}
+.submenu_title{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+#banner{
+    height: 651px;
+    background: url(../images/main/banner/banner.png) no-repeat center;
+}
+#banner_inner{  width: 1320px; 
+    margin: 0 auto;
+ text-align: center;
+ position: relative;
+}
+.banner_title{
+    font-family: 'Grandiflora One', serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Stardos Stencil', cursive;
+font-weight: bold;
+font-size: 90px;
+color: #4A3D44;
+position: absolute;
+left: 50%;
+top: 300px;
+margin-left: -250px;
+}
+.banner_text{
+    color: white;
+    position: absolute;
+left: 50%;
+top: 380px;
+margin-left:-140px;
+}
+@keyframes book_left {
+    0%{
+        left: 250px;
+        top: 0;
+    }
+    50%{
+        left: 200px;
+        top: 0px;
+    }
+    100%{
+        left: 250px;
+        top: 0;
+    }
+}
+@keyframes book_right {
+    0%{
+        right: 250px;
+        top: 100px;
+    }
+    50%{
+        right: 200px;
+        top: 100px;
+    }
+    100%{
+        right: 250px;
+        top: 100;
+    }
+}
+@keyframes book_right {
+    0%{
+        right: 250px;
+        top: 100px;
+    }
+    50%{
+        right: 200px;
+        top: 100px;
+    }
+    100%{
+        right: 250px;
+        top: 100;
+    }
+}
+@keyframes book_bottom {
+    0%{
+        top: 550px;
+        right: 400px;
+    }
+    50%{
+        top: 550px;
+        right: 350px;;
+    }
+    100%{
+        top: 550px;
+        right: 400px;
+    }
+}
+@keyframes clound_left{
+    0%{
+        left: 150px;
+        top: 150;
+    }
+    50%{
+        left: 150px;
+        top: 160px;
+    }
+    100%{
+        left: 150px;
+        top: 150px;
+    }
+}
+@keyframes clound_middle{
+    0%{
+        left: 500px;
+    top: 100px;
+    }
+    50%{
+        left: 500px;
+    top: 90px;
+    }
+    100%{
+        left: 500px;
+    top: 100px;
+    }
+}
+@keyframes clound_right{
+    0%{
+        right: 350px;
+    top: 390px;
+    }
+    50%{
+        right: 350px;
+        top: 400px;
+    }
+    100%{
+        right: 350px;
+        top: 390px;
+    }
+}
+@keyframes clound_bottom{
+    0%{
+        left: 350px;
+        top: 450px;
+    }
+    50%{
+        left: 350px;
+    top: 460px;
+    }
+    100%{
+        left: 350px;
+    top: 450px;
+    }
+}
+
+
+.sky{
+    position: relative;
+}
+.book_left{
+    position: absolute;
+    left: 250px;
+    top: 0px;
+    animation: book_left 5s infinite;
+}
+.book_right{
+    position: absolute;
+    top: 100px;
+    right: 250px;
+    animation: book_right 5s infinite;
+}
+.book_bottom{
+    position: absolute;
+    top: 550px;
+    right: 400px;
+    animation: book_bottom 5s infinite;
+    
+}
+.clound_left{
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    animation: clound_left 1.5s infinite;
+}
+.clound_middle{
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    animation: clound_middle 1.5s infinite;
+}
+.clound_right{
+    position: absolute;
+    right: 350px;
+    top: 390px;
+    animation: clound_right 1.5s infinite;
+}
+.clound_bottom{
+    position: absolute;
+    left: 350px;
+    top: 450px;
+    animation: clound_bottom 1.5s infinite;
+}
+.smoke{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+#section1{overflow: hidden;
+    height: 1500px;
+}
+.section1_inner{
+        margin: 0 auto;
+    width: 1320px;
+    position: relative;
+    text-align: center;
+}
+.title_text{
+    margin: 80px 0 30px;
+    font-size: 37px;
+    font-weight: 200;
+}
+.title_sidetext{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.section1_coffee_img{
+    position: absolute;
+    top: 150px;
+    left: -300px;
+}
+.section1_book_img{
+    position: absolute;
+    top: 800px;
+    right: -300px;
+}
+.section1_text{
+    
+    font-size: 16px;
+    line-height: 2.5em;
+  
+}
+.c{text-align: left;
+  position: absolute;
+    top: 350px;
+    left: 700px;
+}
+.b{text-align: right;
+    position: absolute;
+    top: 970px;
+    right:700px;
+    z-index: 8;
+}
+.section1_titile{
+    font-family: 'Grandiflora One', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 67px;
+}
+.co{
+    position: absolute;
+    top: 280px;
+    left: 480px;
+    color: #470D01;
+}
+.co span{
+    color: white;
+}
+.bo{
+    position: absolute;
+    top: 900px;
+    right: 350px;
+    color: #576721;
+    z-index: 9;
+}
+.bo span{
+    color: white;
+}
+.coffeebin{
+    position: absolute;
+    left: 600px;
+    top: 500px;
+    z-index: 9;
+}
+.coffeebin2{
+    position: absolute;
+    right: 300px;
+    top: 200px;
+}
+.plants{
+    position: absolute;
+    top: 750px;
+    right: 500px;
+    z-index: -1;
+}
+.plants2{
+    position: absolute;
+    top: 1150px;
+    right: 580px;
+    z-index: -1;
+}
+
+.animated-title {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 0;
+    color: #eeeef3;
+    overflow: hidden;
+    position: relative;
+    background-color: #4A3D44;
+}
+
+.animated-title .track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 50s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@media (hover: hover) and (min-width: 0px) {
+    .animated-title .content {
+        -webkit-transform: translateY(calc(100% - 2.3rem));
+        transform: translateY(calc(100% - 2.3rem));
+    }
+}
+#section2{
+    text-align: center;
+    height: 800px;
+    background-color: #B0C1CD;
+   
+}
+#section2_inner{
+    margin: 0 auto;
+    width: 1320px;
+}
+
+.icon_plus{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.top_title{
+    font-family: 'Grandiflora One', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 40px;
+    color: #4A3D44;
+    padding: 80px 0 20px;
+}
+.menu{
+    overflow: hidden;
+   display: inline-block;
+   padding-top: 50px;
+}
+.menu li{
+    width: 300px;
+    float: left;
+}
+.menu li:nth-child(2){
+    margin: 50px 30px 0 30px; 
+}
+.menu li:nth-child(4){
+    margin: 50px 30px 0 30px; 
+}
+.hover_wrap:hover .img_wrap img{
+    transform: scale(1.1);
+}
+.hover_wrap{
+    position: relative;
+    margin-bottom: 20px;
+}
+.img_wrap{
+    overflow: hidden;
+}
+.img_wrap img{
+    width: 100%;
+    display: block;
+    transition: all 0.3s;
+    
+}
+.cover{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.hover_wrap:hover .cover{
+    opacity: 1;
+}
+.drink{   
+    color: #fff;
+    transform: translateY(50px);
+    transition: all 0.3s;
+    line-height: 1.5em;
+}
+.hover_wrap:hover .drink{
+    transform: translateY(120px);
+}
+.dirnk_text{
+    color: #fff;
+    padding: 4px 16px;
+    font-size: 16px;
+    margin-top: 20px;
+    transform: translateY(150px);
+    transition: all 0.3s;
+    text-align: center;
+}
+.box{
+    background-color: white;
+    width: 2px;
+    height: 40px;
+    margin: 0 0 10px 130px;
+}
+.drink_text:hover{
+    background-color: #fff;
+    color: #000;
+}
+.hover_wrap:hover .dirnk_text{
+    transform: translateY(110px);
+}
+#section3{
+    text-align: center;
+    height: 800px;
+     position: relative;
+     width: 1320px;
+     margin: 0 auto;
+}
+
+.bookclub_left{
+    position: absolute;
+    left: 430px;
+    top: 40px;
+}
+.bookclub_right{
+    position: absolute;
+    right: 400px;
+    top: 40px;
+}
+
+#section3 .book_img {display: block;
+float: left;
+   width: 44%;
+     border: 1px solid #ddd;
+}
+.book_img_wrap{      
+  margin: 20px 0 30px 30px;
+}
+.screen_text{
+    width: 47%;
+    float: right;
+    text-align: left;
+   line-height: 40px;
+}
+.screen_text .icon{
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    width: 20px;
+}
+.book_stand{
+    display: inline-block;
+    padding: 0 15px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.blue{
+     background-color: #B0D1E9;
+}
+.yellow{
+    background-color: #FEFACA;
+}
+.gray{
+    background-color: #899095;
+    color: white;
+}
+.book_big{
+    margin-top: 20px;
+   font-size: 20px;
+   padding-bottom: 3px;
+   border-bottom: 2PX dotted #666363;
+   width: 150px;
+}
+.book_title{
+    margin-top: 20px;
+    display: inline-block;
+}
+.book_reader{
+    display: inline-block;
+}
+.book_date{
+    display: inline-block;
+}
+.screen{
+    margin-top: 60px;
+	position:relative;
+	overflow: hidden;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.screen img{
+	width:100%;
+	display:block;
+}
+
+
+
+
+#section3 .swiper-slide-next .bottom{bottom:0%;}
+#section3 .swiper-slide{transform:scale(0.7); transition: all 1s;}
+#section3 .swiper-slide-next{transform:scale(1);}
+#section3 .swiper-slide-duplicate-prev{transform:scale(0.7);}
+
+
+
+a.button{
+    background-color: #4A3D44;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+a.button:hover{
+    background-color: #97A7B8;
+    column-rule: #fff;
+}
+#cont_scroll{
+    height: 400px;
+    background: url(../images/main/cont_scroll/bg.png) fixed no-repeat center;
+}
+
+#cont_scroll_wrap{ 
+    margin: 0 auto;
+    width: 1320px;  
+    position: relative;
+}
+.cont_scroll_text1{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    
+}
+.cont_scroll_text2{
+    position: absolute;
+    top: 200px;
+    right: 300px;
+
+}
+#section4{
+    height: 800px;
+    text-align: center;
+    /* width: 1320px;
+    margin: 0 auto; */
+    overflow: hidden;
+}
+.bookclub_review{
+    width: 1400px;
+    height: 500px;
+    /* margin: 0 auto; */
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -700px;
+    
+}
+.bookclub_review .swiper-wrapper{
+    height: 450px!important;
+}
+.swiper {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+.bookclub_review .swiper {
+    padding: 30px 2%;
+}
+
+/* .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+} */
+
+.bookclub_review .swiper-slide {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+/* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+/* .bookclub_review img{
+    width: 288px!important;
+} */
+#footer{
+    height: 250px;
+    background-color: #474241;
+}
+.footer_inner{
+    margin: 0 auto;
+    width: 1320px;
+    padding-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.footer_logo{
+    float: left;
+    width: 20%;
+}
+.footer_text{
+    float: right;
+    color: white;
+    text-align: left;
+    width: 80%;
+}
+
+.footer_gnb li{
+    float: left;
+}
+
+.footer_gnb{
+    display: inline-block;
+}
+
+.footer_gnb li{
+    margin-right: 50px;
+}
+.footer_gnb li a{
+    display: block;
+    color: #fff;
+}
+.address{
+    clear: both;
+    text-align: left;
+    margin-top: 50px;
+}
+.tel li{
+    float: left;
+}
+.tel li::after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px ;
+    background-color: #fff;
+    margin: 0 20px;
+    vertical-align: 0.5px;
+}
+
+.tel li:nth-child(3)::after{
+    display: none;
+}
+.copyright{
+    clear: both;
+    text-align: center;
+    padding-top: 50px;
+}
+.sns{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.sns li{
+    float: left;
+    margin-left: 12px;
+}
+.sns img{
+    opacity: 0.5;
+}
+.sns img:hover{
+    opacity: 1;
+}
+
+ #banner1{
+            width: 1320px;
+            height: 360px;
+            margin: 0 auto;
+            position: relative;
+        }
+        #banner1 .swiper {
+            width: 90%;
+            margin: 0 auto;
+            height: 100%;
+        }
+
+        #banner1 .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: top;
+        }
+
+        #banner1 .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="291" height="180" viewBox="0 0 291 180">
+  <defs>
+    <filter id="책_한권_커피_한잔_" x="0" y="0" width="291" height="180" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.412"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#책_한권_커피_한잔_)">
+    <text id="책_한권_커피_한잔_2" data-name="책 한권, 
+  커피 한잔, " transform="translate(30 73)" fill="#fff" font-size="45" font-family="MaruBuriot-Bold, MaruBuriOTF" font-weight="700"><tspan x="0" y="0">책 한권, </tspan><tspan x="0" y="60" xml:space="preserve">  커피 한잔, </tspan></text>
+  </g>
+</svg>

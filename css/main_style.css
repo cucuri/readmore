@@ -422,7 +422,7 @@ margin-left:-140px;
 
 .animated-title .track {
     position: absolute;
-	top: 20px;
+	top: 16px;
     left: 0;
     white-space: nowrap;
     will-change: transform;

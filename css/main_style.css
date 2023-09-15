@@ -21,7 +21,7 @@ body{
     color: #333;
 }
 #wrap{
-    min-width: 1320px;
+    min-width: 1360px;
 }
 #header{
     background-color: #E5DCD7;
@@ -422,6 +422,8 @@ margin-left:-140px;
 
 .animated-title .track {
     position: absolute;
+	top: 5px;
+    left: 0;
     white-space: nowrap;
     will-change: transform;
     animation: marquee 50s linear infinite;
@@ -654,7 +656,7 @@ a.button:hover{
 }
 #cont_scroll{
     height: 400px;
-    background: url(../images/main/cont_scroll/bg.png) fixed no-repeat center;
+    background: url(../images/main/cont_scroll/bg.png) fixed repeat center;
 }
 
 #cont_scroll_wrap{ 

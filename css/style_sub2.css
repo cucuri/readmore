@@ -394,6 +394,7 @@ a.button:hover{
 input{
     display: inline-block;
     border: none;
+    outline: none;
 }
 .input_wrap{
     padding: 6px 20px;

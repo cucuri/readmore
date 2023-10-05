@@ -380,7 +380,7 @@ font-family: 'Stardos Stencil', cursive;
     position: absolute;
     top: 200px;
     right: 0;
-    width: 75%;
+    width: 85%;
     z-index: -1;
 }
 #section3{
@@ -502,7 +502,7 @@ font-family: 'Stardos Stencil', cursive;
     position: absolute;
     top: 200px;
     left: 0;
-    width: 75%;
+    width: 85%;
     z-index: -1;
 }
 #section5{

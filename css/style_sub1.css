@@ -148,7 +148,7 @@ font-family: 'Stardos Stencil', cursive;
 #section1{  
      height: 800px;
      box-sizing: border-box;
-    background: url(../images/sub1/bland_story/BG.png);
+    background: url(../images/sub1/bland_story/bg.png);
 }
 .section1_inner{
     width: 1320px;

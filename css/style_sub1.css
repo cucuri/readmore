@@ -133,8 +133,9 @@ font-family: 'Stardos Stencil', cursive;
 .submenu_title{
     margin-bottom: 20px;
     font-size: 16px;
+    display: block;
+    color: white;
 }
-
 .banner_inner{
     position: absolute;
     left: 50%;

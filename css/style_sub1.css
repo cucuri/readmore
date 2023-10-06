@@ -105,16 +105,18 @@ font-family: 'Stardos Stencil', cursive;
    padding-left: 200px;
 }
 .submenu_left{
-    float: left;
+    float: left; 
 }
-.submenu_right{
-    float: left;
-    padding-left: 110px;
-}
-.padding{
-    padding-left: 350px;
+.margin_right{
+    margin-right: 110px;
 }
 
+.logo_margin{
+    padding-left: 240px;
+}
+.margin{
+    margin-left: 80px;
+}
 .submenu_link > li{
     margin-top: 10px;
 }

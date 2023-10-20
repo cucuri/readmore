@@ -147,6 +147,23 @@ font-family: 'Stardos Stencil', cursive;
 }
 
 
+.banner_text{
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+}
+.banner_title{
+    font-family: 'Grandiflora One', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 48px;
+}
+.banner_small_title{
+    margin: 40px 0 5px;
+    font-size: 20px;
+}
+
+
 
 #section1{  
      height: 800px;
